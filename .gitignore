@@ -1,0 +1,37 @@
+# Vagrant
+.vagrant/
+*.box
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Ansible
+*.retry
+
+# Python (script phụ trợ, nếu có)
+.venv
+__pycache__/
+*.py[cod]
+
+# Kubernetes / kubeconfig cá nhân
+kubeconfig*
+*.kubeconfig
+
+# Secrets / credentials — KHÔNG BAO GIỜ commit
+*.pem
+*.key
+.env
+.env.*
+secrets.yml
+vault_pass.txt
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
